@@ -7,9 +7,12 @@ engine = phptemplate
 
 stylesheets[all][] = style.css
 stylesheets[all][] = changeme.css
+stylesheets[all][] = css/smoothness/jquery-ui-1.8.7.custom.css
 ; Information added by drupal.org packaging script on 2010-04-14
 version = "6.x-1.1"
 core = "6.x"
 project = "changeme"
 datestamp = "1271251205"
 
+scripts[] =jquery-1.4.4.min.js
+scripts[] =jquery-ui-1.8.7.custom.min.js

@@ -33,6 +33,20 @@ a:hover {
 	color: #fff;
 	}
 
+#nav ul li {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#nav ul {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+}
+
 /* SubNav Link Color */
 #subnav a	{
 	color: #999;
@@ -52,7 +66,7 @@ h2 {
 
 /* Header Background Color */
 #wrapper #header-section {
-    background-color: #EDE7D3;
+    background-color: #D9FEFD;
 	background-image: url(grass_border.png);
     background-repeat: repeat-x;
     background-position: bottom;

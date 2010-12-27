@@ -40,18 +40,19 @@
         <div id="search-box"><?php print $search_box; ?></div>
     	<?php endif; ?>
 		</div>  <!-- End Header right -->
-		
-		
-			<div id="nav">
-				<?php if (isset($primary_links)) : ?>
-          			<?php print theme('links', $primary_links, array('class' => 'links primary-links')) ?>
-        		<?php endif; ?>
-			</div>
-	
 	</div> <!--END HEADER SECTION-->
 	
+    <div id="nav">
+        <?php if (isset($primary_links)) {
+            $pl2 = array();
+            foreach($primary_links as $k=>$v){
+                $pl2[$k . " ui-corner-all"] = $v;
+            }
+            print theme('links', $pl2, array('class' => 'links primary-links'));
+        } ?>
+    </div>
 	
-			<?php if (isset($secondary_links)) : ?>
+    <?php if (isset($secondary_links)) : ?>
          <div id="subnav">
           	<?php print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
        	</div>
