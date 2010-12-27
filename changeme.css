@@ -110,5 +110,10 @@ h2 {
 
 .messages {
     font-size: 16pt;
-    background-color: #fff;
+    background-color: #D9FEFD;
+    border: 1px solid black;
+    padding: 0.5em !important;
+    width: 500px;
+    margin: 0 auto;
+    display: none;
 }

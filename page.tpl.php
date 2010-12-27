@@ -71,7 +71,7 @@
 				
 		<div id="body-section">
 			<?php print $tabs ?>
-			<?php print $messages ?>
+			<?php print str_replace("class=\"","class=\"ui-corner-all ", $messages) ?>
 			<?php print $help ?>
 			<?php if($title) { ?><h1><?php print $title ?></h1><?php } ?>
 	 		<?php print $content ?>

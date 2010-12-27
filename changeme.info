@@ -14,5 +14,6 @@ core = "6.x"
 project = "changeme"
 datestamp = "1271251205"
 
-scripts[] =jquery-1.4.4.min.js
-scripts[] =jquery-ui-1.8.7.custom.min.js
+scripts[] = js/jquery-1.4.4.min.js
+scripts[] = js/jquery-ui-1.8.7.custom.min.js
+scripts[] = js/changeme.js
